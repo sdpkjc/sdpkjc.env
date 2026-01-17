@@ -34,3 +34,5 @@ export PATH="$HOME/.cargo/bin:$PATH"
 if [ -d "/home/linuxbrew/.linuxbrew" ]; then
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 fi
+
+CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC='1'

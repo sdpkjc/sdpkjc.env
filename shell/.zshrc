@@ -8,6 +8,9 @@
 # Load aliases
 [ -f ~/.aliases ] && source ~/.aliases
 
+# Load environment presets
+[ -f ~/.env_presets ] && source ~/.env_presets
+
 # ============================================================
 # Zsh Options
 # ============================================================

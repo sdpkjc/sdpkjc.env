@@ -64,6 +64,7 @@ setup_shell() {
     link_file "$DOTFILES_DIR/shell/.bashrc" "$HOME/.bashrc"
     link_file "$DOTFILES_DIR/shell/.aliases" "$HOME/.aliases"
     link_file "$DOTFILES_DIR/shell/.exports" "$HOME/.exports"
+    link_file "$DOTFILES_DIR/shell/.env_presets" "$HOME/.env_presets"
 }
 
 setup_git() {
