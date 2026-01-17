@@ -1,0 +1,36 @@
+# ============================================================
+# Environment Variables
+# ============================================================
+
+# Editor
+export EDITOR="vim"
+export VISUAL="$EDITOR"
+
+# Language
+export LANG="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
+
+# History
+export HISTSIZE=10000
+export SAVEHIST=10000
+export HISTCONTROL=ignoredups:erasedups
+
+# Path additions
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
+
+# Node.js (nvm)
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# Bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# uv / Python
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# Homebrew (Linux)
+if [ -d "/home/linuxbrew/.linuxbrew" ]; then
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+fi

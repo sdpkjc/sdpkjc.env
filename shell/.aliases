@@ -1,0 +1,45 @@
+# ============================================================
+# Aliases
+# ============================================================
+
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias ~="cd ~"
+
+# List
+alias ll="ls -lah"
+alias la="ls -A"
+alias l="ls -CF"
+
+# Safety
+alias rm="rm -i"
+alias cp="cp -i"
+alias mv="mv -i"
+
+# Git
+alias g="git"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gl="git pull"
+alias gd="git diff"
+alias gco="git checkout"
+alias gb="git branch"
+alias glog="git log --oneline --graph"
+
+# Python
+alias py="python3"
+alias pip="pip3"
+
+# Quick edit
+alias zshrc="$EDITOR ~/.zshrc"
+alias bashrc="$EDITOR ~/.bashrc"
+alias aliases="$EDITOR ~/.aliases"
+
+# Misc
+alias c="clear"
+alias h="history"
+alias reload="source ~/.zshrc"
